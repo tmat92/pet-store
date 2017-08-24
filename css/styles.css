@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 /*header styles*/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo-img {
   width: 90px;
   display: inline-block;
@@ -28,4 +33,10 @@
 
 .hero .white-text {
   font-size: 2em;
+}
+
+/*featured section styles*/
+.thumbnail {
+  padding: 8px 12px;
+  background-color: #edf1f4; /* light grey*/
 }
