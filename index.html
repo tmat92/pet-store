@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 <!-- .container>.row>(.col-sm-7>(.row>.col-xs-12)+.row>.col-xs-6.col-sm-4*3)+.col-sm-3.col-sm-offset-1 -->
 <div class="container">
 	<div class="row">
-		<div class="col-sm-7"> <!-- featured section starts -->
+		<div class="col-sm-7 featured"> <!-- featured section starts -->
 			<div class="row">
 				<div class="col-xs-12">
 					<!-- (h1.text-uppercase>{featured})+p.text-justify>lorem24 -->
@@ -47,8 +47,8 @@
 					    <div class="thumbnail">
 					      <img src="img/product1.jpg" alt="...">
 					      <div class="caption">
-					        <h3>Dog Bowl</h3>
-					        <p>Get you a dog bowl</p>
+					        <h4>Dog Bowl</h4>
+					        <p>Get you a dog bowl son.</p>
 					        <p><a href="#" class=" btn btn-info btn-xs" role="button">Purchase Now</a></p>
 					      </div>
 					    </div>
@@ -59,8 +59,8 @@
 					    <div class="thumbnail"> <!-- can add well class to give grey and padding-->
 					      <img src="img/product2.jpg" alt="...">
 					      <div class="caption">
-					        <h3>Cat Toys</h3>
-					        <p>Kitty-Kat toys!</p>
+					        <h4>Cat Toys</h4>
+					        <p>Toys for the purrfect pet!</p>
 					        <p><a href="#" class="btn btn-info btn-xs" role="button">Purchase Now</a></p>
 					      </div>
 					    </div>
@@ -71,7 +71,7 @@
 					    <div class="thumbnail">
 					      <img src="img/product3.jpg" alt="...">
 					      <div class="caption">
-					        <h3>Bird Toys</h3>
+					        <h4>Bird Toys</h4>
 					        <p>Parrot stuff yo!</p>
 					        <p><a href="#" class="btn btn-info btn-xs" role="button">Purchase Now</a></p>
 					      </div>
@@ -84,16 +84,39 @@
 		<div class="text-center col-sm-3 col-sm-offset-1"> <!-- services section begins-->
 			<h1 class="text-uppercase">services</h1>
 			<ul class="nav nav-pills nav-stacked">
-			  <li role="presentation"><a href="#" class="text-center">Adopt a Cat</a></li>
+			  <li role="presentation text-info"><a href="#" class="text-center">Adopt a Cat</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			  <li role="presentation"><a href="#" class="text-center">Adopt a Dog</a></li>
+			  <li role="presentation text-info"><a href="#" class="text-center">Adopt a Dog</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			  <li role="presentation"><a href="#" class="text-center">Adopt a Fish</a></li>
+			  <li role="presentation text-info"><a href="#" class="text-center">Adopt a Fish</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</ul>
 		</div> <!-- services section ends-->
 	</div>
 </div>
+<!-- footer.container-fluid>(.row>.col-sm-3*3)+.row>.col-sm-12 -->
+<footer class="container-fluid footer">
+	<div class="top-footer row">
+		<div class="col-sm-3">
+			<img src="img/petstore_logo.png" alt="pet store logo" class="img-responsive logo-img">
+		</div> <!--logo ends -->
+		<div class="col-sm-3 address">
+			<address class="middle grey-text">Pet Store<br>Fresno,CA<br>info@petstore.com</address>
+		</div> <!--address&email ends-->
+		<div class="col-sm-3">
+			<ul class="fa-ul grey-text">
+			  <li><i class="fa-li fa fa-twitter " aria-hidden="true"></i>Twitter</li>
+			  <li><i class="fa-li fa fa-facebook " aria-hidden="true"></i>Facebok</li>
+			  <li><i class="fa-li fa fa-linkedin-square " aria-hidden="true"></i>LinkedIn</li>
+			</ul>
+		</div> <!--social media ends-->
+	</div>
+	<div class="row">
+		<div class="col-sm-12 text-center copyright">
+			<p>&copy;Pet Store Inc. All Rights Reserved.</p>
+		</div>
+	</div> <!-- copyright ends -->
+</footer>
 <!-- featured and services ends -->
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
