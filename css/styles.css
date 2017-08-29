@@ -1,3 +1,12 @@
+/*universials*/
+.white-text {
+  color: #fff;
+}
+
+.grey-text {
+  color: #959595;
+}
+
 /*fonts*/
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
@@ -27,16 +36,44 @@
   padding-top: 35px;
 }
 
-.white-text {
-  color: #fff;
-}
-
 .hero .white-text {
   font-size: 2em;
 }
 
 /*featured section styles*/
+
+.featured {
+  margin-bottom: 60px;
+}
+
 .thumbnail {
   padding: 8px 12px;
   background-color: #edf1f4; /* light grey*/
+}
+
+/*footer styles*/
+.footer {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /*justify-content: space-around;*/
+  /*align-items: center;*/
+}
+
+.top-footer {
+  margin-left: 100px;
+}
+
+.address {
+  border-left: 1px solid #3e3e3e;
+  border-right: 1px solid #3e3e3e;
+}
+
+.middle {
+  margin-left: 30px;
+}
+
+.copyright {
+  padding: 1%;
 }
