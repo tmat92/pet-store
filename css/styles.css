@@ -1,3 +1,9 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+
 /*universials*/
 .white-text {
   color: #fff;
@@ -6,9 +12,6 @@
 .grey-text {
   color: #959595;
 }
-
-/*fonts*/
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 /*header styles*/
 .flex {
@@ -53,6 +56,7 @@
 
 /*footer styles*/
 .footer {
+  height: 150px;
   background-color: #000;
   display: flex;
   flex-direction: column;
